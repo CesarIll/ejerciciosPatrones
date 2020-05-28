@@ -1,4 +1,5 @@
 package ejercicios2.mediator;
 
-public class Mediator {
+public interface Mediator {
+    public void send(String msg, Colleague colleague, boolean global);
 }
