@@ -7,8 +7,8 @@ public class Desarrollador extends Colleague {
     }
 
     @Override
-    public void send(String msg, boolean global) {
-        mediator.send(msg, this, global);
+    public void send(String msg, boolean global, String name) {
+        mediator.send(msg, this, global, name);
     }
 
     @Override
