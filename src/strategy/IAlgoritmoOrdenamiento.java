@@ -1,4 +1,5 @@
 package strategy;
 
-public class IAlgoritmo {
+public interface IAlgoritmoOrdenamiento {
+    Estudiante[] ordenar(Estudiante[] estudiantes);
 }
